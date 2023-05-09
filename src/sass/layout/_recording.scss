@@ -1,0 +1,74 @@
+// .audio-recorder {
+//   margin: 1rem;
+//   padding: 1rem;
+//   border: 1px solid #ccc;
+//   border-radius: 0.5rem;
+// }
+
+// .audio-recorder__title {
+//   font-size: 2rem;
+//   margin-bottom: 1rem;
+// }
+
+// .audio-controls {
+//   display: flex;
+//   align-items: center;
+// }
+
+// .audio-controls__button {
+//   font-size: 1.2rem;
+//   padding: 0.5rem 1rem;
+//   border: none;
+//   border-radius: 0.5rem;
+//   background-color: #f1f1f1;
+//   color: #333;
+//   cursor: pointer;
+//   margin-right: 1rem;
+// }
+
+// .audio-controls__button:hover {
+//   background-color: #ddd;
+// }
+
+// .audio-controls__button--record {
+//   background-color: red;
+//   color: #fff;
+// }
+
+// .audio-controls__button--record:hover {
+//   background-color: darkred;
+// }
+
+.button-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.audio-controls,
+.video-controls {
+  margin-bottom: 20px;
+}
+.audio-player,
+.video-player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.audio-player,
+.video-player,
+.recorded-player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.live-player {
+  height: 200px;
+  width: 400px;
+  border: 1px solid #646cff;
+  margin-bottom: 30px;
+}
+.recorded-player video {
+  height: 400px;
+  width: 800px;
+}
